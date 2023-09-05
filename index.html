@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Game Overlay</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #progress-bar {
+      position: relative;
+      width: 80%;
+      height: 20px;
+      background-color: #444;
+    }
+    #progress-bar div {
+      position: absolute;
+      height: 100%;
+      background-color: #00ff00;
+    }
+  </style>
+</head>
+<body>
+  <div id="progress-bar">
+    <div id="progress"></div>
+  </div>
+  <script src="dist/timer.js"></script>
+</body>
+</html>

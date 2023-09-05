@@ -1,0 +1,18 @@
+{
+  "name": "phas-overlay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.5.9",
+    "electron": "^26.1.0",
+    "typescript": "^5.2.2"
+  }
+}
